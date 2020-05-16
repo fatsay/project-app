@@ -20,6 +20,7 @@ class Home extends Component {
                         <div>
                             <header className='info-panel'>CI/CD IMPLEMENTATION</header>
                             <span className='sub-header'>React Front-end Application</span>
+                            <span className='sub-header'>Test commit</span>
                         </div>
                         <div>
                             <Link to='/features'>
