@@ -23,7 +23,7 @@ class Home extends Component {
                         </div>
                         <div>
                             <Link to='/features'>
-                                <button className='ui basic green button m-xl-5'>Open Implemented Features</button>
+                                <button id='button-features' className='ui basic green button m-xl-5'>Open Implemented Features</button>
                             </Link>
                         </div>
                         <div className='row mt-xl-5 ml-5 mr-5'>

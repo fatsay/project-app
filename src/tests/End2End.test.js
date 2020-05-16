@@ -5,10 +5,13 @@ let page;
 
 beforeAll(async () => {
     browser = await puppeteer.launch({
-        headless: true
+        headless: false
     });
     page = await browser.newPage();
-    await page.goto("http://192.168.2.211:3000/features");
+    await page.goto("http://192.168.2.211:3000");
+},30000);
+test("find link button to /features",async()=>{
+    await page.click("#button-features");
 },30000);
 // 1
 test("renders string counter", async () => {

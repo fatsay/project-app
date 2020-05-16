@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../bootstrap/NavBar';
+import Navbar from '../bootstrap/Navbar';
 import {shallow} from 'enzyme';
 
 describe('Navbar component',()=> {
