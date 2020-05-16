@@ -5,11 +5,9 @@ import Features from './components/Features';
 
 const App =()=> {
   return (
-      <Router>
-        <div>
-          <Route exact path="/home" component={Home}/>
+      <Router basename={window.location.pathname || ''}>
+          <Route exact path="/" component={Home}/>
           <Route exact path="/features" component={Features}/>
-        </div>
       </Router>
   );
 };
