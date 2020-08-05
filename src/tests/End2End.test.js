@@ -5,7 +5,7 @@ let page;
 
 beforeAll(async () => {
     browser = await puppeteer.launch({
-        headless: true
+        headless: false
     });
     page = await browser.newPage();
     await page.goto("http://192.168.2.211:3000");
