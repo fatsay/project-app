@@ -8,7 +8,7 @@ beforeAll(async () => {
         headless: true
     });
     page = await browser.newPage();
-    await page.goto("http://192.168.2.211:3000");
+    await page.goto("http://192.168.2.211:3000/project-app");
 },30000);
 test("find link button to /features",async()=>{
     await page.click("#button-features");
